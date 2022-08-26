@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Formulário</title>
+    </head>
+    <body>
+            <h1>CADASTRO</h1>
+        <form class="fmr">
+        <div class="div1">
+            <label class="name1"><Strong>Nome:</Strong></label>
+            <input type="text" id="nome" size="25" maxlength="25" autofocus required placeholder="Digite o Nome">
+        </div>
+            <div class="div1">
+            <label class="name1">Sobrenome:</label>
+            <input type="text" id="sobrenome" size="25" maxlength="25" required>
+        </div>   
+        
+            <div class="div1">
+            <label class="name1">Email:</label>
+            <input type="email" id="email" size="25" maxlength="25" required placeholder="tomaaqui@gmail.com">
+        </div>   
+        
+        
+            <div class="div1">
+            <label class="name1">Phone:</label>
+            <input type="text" id="phone" size="25" maxlength="75" placeholder="(99)99999-9999">
+        </div>     
+
+        
+        <div class="div1">
+            <label class="name2">UF</label>
+            <select id="UF">
+                <option>RJ</option>
+                <option>SP</option>
+                <option selected>DF</option>
+                <option>BA</option>
+                <option>MG</option>
+            </select>
+            
+            <label class="name2">Data</label>
+            <input type="date">
+         </div><br>
+        
+         <div class="sexo">
+                <h3>Gênero</h3>
+
+            <input type="radio"  name="sexo" checked>
+            <label class="sex">Masculino</label>
+            
+            <input type="radio"  name="sexo">
+            <label class="sex">Feminino</label>
+            
+            <input type="radio"  name="sexo">
+            <label class="sex1">Não Binário</label>
+            
+
+         </div><br>
+
+         <div class="txt">
+                <h3>Esportes</h3>
+            <input type="checkbox"  name="futebol">
+            <label class="esp">Futebol</label>
+            
+            <input type="checkbox"  name="basquete" >
+            <label class="esp">Basquete</label>
+            
+            <input type="checkbox"  name="nataçao" >
+            <label class="esp">Natação</label>
+            
+
+         </div>
+           
+        <div class="env1">
+                <input class="btn" type="submit" value="Enviar">
+                <input class="btn" type="reset" value="Limpar">
+        </div>
+        
+            </form>
+    </body>
+</html>
