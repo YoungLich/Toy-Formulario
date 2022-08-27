@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
 @font-face {
     font-family: Dyna;
     src: url("/DynaPuff-VariableFont_wdth\,wght.ttf");
@@ -10,7 +12,7 @@ body{
 }
 
 h1{
-    font-family: Dyna;
+    font-family: Silk;
     text-align: center;
     font-size: 50px;
     color: rgb(3, 4, 3);
