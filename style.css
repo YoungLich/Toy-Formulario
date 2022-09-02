@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
-
 @font-face {
     font-family: Dyna;
-    src: url(/DynaPuff-VariableFont_wdth,wght.ttf);
+    src: url(DynaPuff-VariableFont_wdth,wght.ttf);
 }
 
 body{
