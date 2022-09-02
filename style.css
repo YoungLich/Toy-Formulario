@@ -1,6 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
 @font-face {
     font-family: Dyna;
-    src: url("DynaPuff-VariableFont_wdth,wght.ttf");
+    src: url(DynaPuff-VariableFont_wdth\,wght.ttf);
 }
 
 body{
@@ -12,15 +18,18 @@ body{
 h1{
     font-family: Dyna;
     text-align: center;
-    font-size: 50px;
-    color: rgb(3, 4, 3);
-    width: auto;
-
+    font-size: 30px;
+    color: rgba(251, 47, 200, 0.906);
+    border: 3px solid black;
+    box-shadow: 5px 10px 15px;
+    width: 10%;
+    padding: 5px;
+    background-color: rgb(141, 226, 205);
 }
 
 .fmr{
     text-align: center;
-    margin: 80px auto;
+    margin: 50px auto;
     width: 30%;
     border: 5px solid black;
     background-color: rgb(241, 229, 213);
@@ -107,4 +116,11 @@ input{
 
 }
 
+.subt{
+    text-align: right;
+    font-family: Dyna;
+    font-size: 25px;
+    width: 15%;
+    color: rgb(113, 24, 26);
 
+}
